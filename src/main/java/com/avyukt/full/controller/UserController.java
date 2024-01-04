@@ -18,7 +18,8 @@ import com.avyukt.full.model.User;
 import com.avyukt.full.repository.UserRepository;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+//@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://members-mgmt.vercel.app/")
 @RequestMapping("/")
 public class UserController {
 	
